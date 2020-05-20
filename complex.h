@@ -14,5 +14,8 @@ class complex
 			imag=y;
 		}
 		friend ostream& operator<<(ostream& os, const complex& dt);
+		complex operator +(complex);
+		complex operator -(complex);
+		complex operator *(complex);
 };
 #endif
