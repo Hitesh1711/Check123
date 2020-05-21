@@ -34,20 +34,3 @@ temp.real=real;
 temp.imag=imag;
 return temp;
 }
-main()
-{
-	float x,y,w,z;
-	cout<<"Enter first number real and imag";
-	cin>>x>>y;
-	cout<<"Enter second number real and imag";
-	cin>>w>>z;
-	complex c1(x,y),c2(w,z);
-	complex c3,c4,c5;
-	c3 = c1+c2;
-	c4 = c1-c2;
-	c5 = c1*c2;
-	cout <<"Addition"<<c3;
-	cout <<"Subtraction"<<c4;
-	cout <<"Multiplication"<<c5;
-	return 0;
-}
