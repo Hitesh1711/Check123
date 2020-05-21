@@ -26,8 +26,6 @@ float real1,real2;
 real1=real;
 real2=c.real;
 real=(real*c.real)-(imag*c.imag);
-/* if (a,b)(c,d) then formula of multiplication
-is (ac-bd,ad+bc) */
 imag=(real1*c.imag)+(imag*real2);
 complex temp;
 temp.real=real;
